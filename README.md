@@ -6,10 +6,10 @@ Usage:
 // Initialize context
 struct chacha20_context ctx;
 
-// Define your KEY (32-Bit)
+// Define your KEY (32-Byte)
 static const uint8_t CHACHA20_KEY[32] = { };
 
-// Define your Nonce (12-Bit)
+// Define your Nonce (12-Byte)
 static const uint8_t CHACHA20_NONCE[12] = { };
 
 // Define counter (should be 0)
